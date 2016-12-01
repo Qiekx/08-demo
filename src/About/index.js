@@ -21,7 +21,7 @@ class About extends React.Component {
       wait:1
     })
     let value = this.refs.gitname.getValue();
-    axios.get(`http://api.github.com/users/${value}`)
+    axios.get(`https://api.github.com/users/${value}`)
       .then(res => this.setState({data:res.data,wait:2}))
       .catch(error => {alert(error);this.setState({wait:0})})
     this.refs.form.reset()
