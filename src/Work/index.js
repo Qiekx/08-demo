@@ -21,7 +21,7 @@ class Work extends React.Component {
         name: '熟练度',
         type: 'bar',
         data: [90, 95, 85, 80, 70, 60],
-        color:['blue']
+        color:['deeppink']
 
       }]
     });
