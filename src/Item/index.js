@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react'
-
+import marked from 'marked';
 class Item extends React.Component {
   render () {
     let content = this.props.params.title == 1 ? '这是第一个页面' :
@@ -11,6 +11,7 @@ class Item extends React.Component {
     return(
       <div>
         {content}
+        
       </div>
     )
   }

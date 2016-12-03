@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react'
 import RaisedButton from 'material-ui/RaisedButton';
+
 class BlogCard extends React.Component {
   render () {
     return(
