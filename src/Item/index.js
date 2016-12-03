@@ -12,7 +12,7 @@ class Item extends React.Component {
   }
   componentDidMount(){
     let address = this.props.params.title;
-    axios.get(`https://raw.githubusercontent.com/Qiekx/08-demo/master/data/${address}.md`)
+    axios.get(`https://raw.githubusercontent.com/Qiekx/08-demo/master/data/${address}.md?a='+Math.random()`)
       .then( res => this.setState({data:res.data}))
       .catch(err => alert(err))
   }
