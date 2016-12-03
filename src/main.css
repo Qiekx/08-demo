@@ -98,3 +98,40 @@ button:focus,button:active,button:visited{
   font-size: 18px;
   padding: 10px 0;
 }
+.blog-wrap{
+  flex-grow: 1;
+  margin-top: 20px;
+}
+.blog-card{
+  padding: 0 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.blog-index{
+  background-color: #00bcd4;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  height: 70px;
+  padding-top: 10px;
+}
+.blog-index span{
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+}
+.blog-content{
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 2px 6px;
+  padding: 10px;
+  color: #666;
+}
+.blog-content h3{
+  margin: 10px 0;
+}
+.blog-content button{
+
+}
