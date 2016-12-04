@@ -1,6 +1,7 @@
 import React, { PropTypes } from 'react'
 import marked from 'marked';
 import axios from 'axios';
+import hljs from 'highlight'
 import Loading from '../component/Loading';
 
 class Item extends React.Component {
@@ -17,9 +18,15 @@ class Item extends React.Component {
       .catch(err => alert(err))
   }
   render () {
+    marked.setOptions({
+      highlight: function (code) {
+        return hljs.highlightAuto(code).value;
+      }
+    });
     return(
       <div className="item-wrap">
-        {this.state.data.length == 0 ? <Loading /> : <div dangerouslySetInnerHTML={{__html:marked(this.state.data)}}/>}
+        {this.state.data.length == 0 ? <Loading /> :
+          <div className="post-content" dangerouslySetInnerHTML={{__html:marked(this.state.data)}}/>}
       </div>
     )
   }
