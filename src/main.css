@@ -5,7 +5,38 @@ button:focus,button:active,button:visited{
   display: flex;
   flex-direction:column;
   height: 100vh;
-
+}
+@media(min-width:760px){
+  .my-wrap{
+    flex-direction:row;
+  }
+}
+.leftnav-wrap{
+  width: 260px;
+  background-color: #00bcd4;
+  color: #fff;
+  text-align: center;
+}
+.leftnav-wrap h3{
+  border-bottom: 2px  solid #bada55;
+  margin: 0;
+  padding: 20px 0;
+}
+.leftnav-wrap a{
+  display: block;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  -ms-text-align-last: auto;
+  text-align: left;
+  padding-left: 20px;
+  text-decoration: none;
+}
+.leftnav-wrap a:hover{
+  background-color:rgba(0,0,0,0.3);
+}
+.leftnav-wrap a span{
+  padding-right: 10px;
 }
 .main{
   flex-grow: 1;

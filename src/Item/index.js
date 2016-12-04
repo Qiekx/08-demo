@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react'
 import marked from 'marked';
 import axios from 'axios';
-import hljs from 'highlight'
+import hljs from 'highlight.js'
 import Loading from '../component/Loading';
 
 class Item extends React.Component {
