@@ -1,7 +1,7 @@
 [
   {"index":1,"title":"react基础知识详解","desc":"react入门","url":"react"},
-  {"index":2,"title":"不必仰望别人，自己亦是风景","desc":"world","url":"lovely"},
-  {"index":3,"title":"向来缘浅，奈何情深","desc":"world","url":"cool"},
+  {"index":2,"title":"Git和Github基本操作手册","desc":"world","url":"git"},
+  {"index":3,"title":"ES6快速入门","desc":"world","url":"ES6"},
   {"index":4,"title":"最美语录（二）","desc":"world","url":"spring"},
   {"index":5,"title":"和你一样","desc":"world","url":"party"},
   {"index":6,"title":"你若安好，便是晴天","desc":"world","url":"sunny"},
